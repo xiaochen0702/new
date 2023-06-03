@@ -1,0 +1,266 @@
+body {
+    background-image:url(../images/index/background.png);
+    background-size: auto;
+    border-radius: 0%;
+    margin: 0px; 
+}
+
+#bigbox {
+    width: 1150px;
+    margin: 0;
+    -moz-box-shadow: 2px 2px 5px #333333;
+    -webkit-box-shadow: 2px 2px 5px #333333;
+    box-shadow: 2px 2px 5px #333333;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 96px;
+}
+#title {
+    position: relative;
+    width: 1150px;
+    font-size: 0px;
+}
+#title>img {
+    width: 1150px;
+    height: 104px;
+}
+#title div img {
+    position: absolute;
+    width: 80px;
+    top: 12px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+#main {
+    background: #f1efe3;
+    padding-top: 10px;
+    font-size: 0px;
+}
+#main>div {
+    font-size: 16px;
+}
+#main_left {
+    width: 170px;
+    display: inline-block;
+    height: 390px;
+}
+#main_left a {
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    background: #525252;
+    background: -webkit-linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    background: linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    height: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+#main_left a:hover {
+    color:#171717;
+    font-weight: bold;
+}
+#main_right {
+    height: 370px;
+    width: 970px;
+    display: inline-block;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: 10px;
+    
+}
+#bg2 {
+    margin-top: 10px;
+    width: 170px;
+    margin-left: 10px;
+    height: 210px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#bg2 img {
+    width: 175px;
+}
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    width: 940px;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 400%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    transition: none;
+}
+.wrapper li {
+    flex: 1px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+} 
+.wrapper li img {
+    width: 970px;
+    height: 370px;
+} 
+
+
+
+.radius {
+    height: 12px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+}
+.radius li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.6;
+    margin: 0 3px;
+    padding: 0px;
+    list-style: none;
+}
+.radius-active {
+    opacity: 1;
+    border: 2px solid rgb(255,255,255,0.5);
+    background-clip:padding-box ;
+}
+.prev {
+    width: 23px;
+    line-height: 34px;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -17px;
+    background-color: darkgray;
+    opacity: 0;
+}
+.next {
+    width: 23px;
+    line-height: 34px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    margin-top: -17px;
+    background-color: darkgray;
+    opacity: 0;
+}
+.prev span,
+.next span {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#main2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 0px;
+    width: 1150px;
+    background: #f1efe3;
+    margin-top: 10px;
+    display: flex;
+}
+#tupian {
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+#tupian img {
+    height: 140px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);  /*给图片添加阴影效果*/
+}
+.title {
+    display: inline-block;
+    font-size: 26px !important;
+    width: 24px;
+    margin-left: 30px;
+    font-weight: bold;
+    color: #3f6ea9;
+    line-height: 40px;
+    margin-right: 20px;
+}
+#main2 p {
+   font-size: 19px;
+}
+#main3 {
+    position: relative;
+    width: 1150px;
+    height: 170px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: url(../images/message/m2.png);  
+ 
+}
+#main3 p {
+    font-size: 15px;
+    line-height: 35px;
+    margin-left: 30px;
+}
+#main3 p:last-child {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 500px;
+    margin-top: -15px;
+}
+#main3 span {
+    font-weight: bold;
+}
+footer {
+    width: 1150px;
+    text-align: center;
+    line-height: 60px;
+    background: #525252;
+    background: -moz-linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    background: linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    color: #fff;
+    font-size: 14px;
+}
