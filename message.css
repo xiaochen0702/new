@@ -1,0 +1,212 @@
+body {
+    background-image:url(../images/index/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-radius: 0%;
+    margin: 0px; 
+}
+
+#bigbox {
+    width: 1150px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 96px;
+}
+#title {
+    position: relative;
+    width: 1150px;
+    font-size: 0px;
+}
+#title>img {
+    width: 1150px;
+    height: 104px;
+}
+#title div img {
+    position: absolute;
+    width: 80px;
+    top: 12px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+#main {
+    background: #f1efe3;
+    padding-top: 10px;
+    font-size: 0px;
+}
+#main>div {
+    font-size: 16px;
+}
+#main_left {
+    width: 170px;
+    display: inline-block;
+    height: 390px;
+}
+#main_left a {
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    background: #525252;
+    background: -webkit-linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    background: linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    height: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+#main_left a:hover {
+    color:#171717;
+    font-weight: bold;
+}
+#main_right {
+    height: 370px;
+    width: 970px;
+    display: inline-block;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-left: 10px;
+    
+}
+#bg2 {
+    margin-top: 10px;
+    width: 170px;
+    margin-left: 10px;
+    height: 210px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#bg2 img {
+    width: 175px;
+}
+
+
+
+.content {
+    width: 940px;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 400%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    transition: none;
+}
+.wrapper li {
+    flex: 1px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+} 
+.wrapper li img {
+    width: 970px;
+    height: 370px;
+} 
+
+#main2 {
+    padding-top: 15px;
+    padding-bottom: 29px;
+    width: 1150px;
+    margin-top: 10px;
+    background: #f1efe3;
+    height: 451px;
+    display: flex;
+    background-image: url(../images/message/m2.png);  
+}
+
+.title {
+    display: inline-block;
+    font-size: 56px !important;
+    width: 24px;
+    margin-left: 200px;
+    font-style: italic;
+    font-weight: bold;
+    color: #3f6ea9;
+    line-height: 80px;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.form {
+    margin-left: 90px; 
+    margin-top: 10px; 
+    background-image: url(../images/message/m2.png);  
+}
+.liuyan {
+    border: 2px solid darkseagreen;
+    width: 600px;
+    padding: 15px;
+    height: 444px;
+}
+.liuyan .item {
+     margin-top: 10px;
+     color: #171717;
+}
+
+.liuyan .wenben {
+    width: 98%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+}
+.liuyan .xiala {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+}
+.liuyan .danxuan {
+    margin-right: 40px;
+    float: left;
+}
+.liuyan .duoxuan {
+    margin-right: 40px;
+    float: left;
+}
+.liuyan .neirong {
+    width: 98%;
+    height: 113px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+}
+.liuyan .anniu {
+    width: 180px;
+    height: 35px;
+    background-color: darkseagreen;
+    color: #fff; 
+    border: none;        /*去除自带边框线 */
+    margin-left: auto;    /*居中显示*/
+    margin-right: auto;
+    display: block;
+    cursor: pointer;      /*鼠标移动使显示小手图标*/
+    font-weight: bold;    /*字体加粗*/
+}
+.clear{
+    width: 100%;
+    clear: both;
+}
+
+footer {
+    width: 1150px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 60px;
+    background: #525252;
+    background: -moz-linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    background: linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    color: #fff;
+    font-size: 14px;
+}

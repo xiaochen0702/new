@@ -1,0 +1,440 @@
+body {
+    background-image:url(../images/index/background.png);
+    background-size: auto;
+    border-radius: 50%;
+    margin: 0px; 
+}
+#bigbox {
+    width: 1150px;
+    margin: 0;
+    box-shadow: 2px 2px 5px #333333;
+    margin-left: auto;
+    margin-right: auto;
+    height: 96px;
+}
+#title {
+    position: relative;
+    width: 1150px;
+    font-size: 0px;
+}
+#title>img {
+    width: 1150px;
+    height: 104px;
+}
+#title div img {
+    position: absolute;
+    width: 80px;
+    top: 12px;
+    left: 50px;
+    border-radius: 50%;
+}
+
+#main {
+    padding-top: 10px;
+    
+    background: #f1efe3;
+}
+#main>div {
+    font-size: 16px;
+}
+#main_left {
+    width: 170px;
+    display: inline-block;
+    height: 390px;
+}
+#main_left a {
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    background: #525252;
+    background: -webkit-linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    background: linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    height: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+#main_left a:hover {
+    color:#171717;
+    font-weight: bold;
+}
+
+#main_right {
+    height: 370px;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+   
+div#main_right div.wrapper div#cont_1_1 {
+    height: 390px;
+    width: 600px;
+    background-image: url(../images/message/m2.png);
+    background-size: 600px 500px;
+    margin-left: 10px;
+}
+#main_right p1 {
+    color: #b89a53;
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+div#main_right div.wrapper div#cont_1_1 img {
+    height: 300px;
+    width: 600px;
+    margin-top: 20px;
+}
+div#main_right div.wrapper div#cont_1_2  {
+    height: 390px;
+    width: 400px;
+    background-image: url(../images/message/m2.png);
+    margin-left: 10px;  
+
+}
+div#main_right div.wrapper div#cont_1_2 img {
+    height:100px;
+    width: 130px;
+    margin-top: 20px;
+    margin-left: 20px;
+  
+    
+}
+#main_right p {
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 25px;
+    margin-top: 18px;
+    font-weight: bold;
+}
+#main_right p2 {
+    color:#b89a53;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#main_right p3 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-right: 18px;
+    display: inline-block;
+
+}
+table {
+    border: 3px #b89a53;
+    width: 280px;
+    margin-top: 20px;
+    caption-side: bottom;
+    /* border-spacing: 10px; */
+    margin-left: 17px;
+
+}
+
+table td,tr {
+    border: 3px plum solid;
+    padding: 6px;
+    margin: 6px;
+    color: #000;
+    /* 不能设置单元格的margin */
+    font-size: 17px;
+    font-family: Verdana;
+    font-weight: bold;
+    height: 20px;
+    text-align: center;    /* 设置文本水平居中效果 */
+    vertical-align:middle;    /* 设置文本垂直居中效果 */
+}
+
+tr:hover{
+    background-color:pink;   /*鼠标移入到tr以后，改变颜色*/
+  }
+
+
+
+#bg2 {
+    margin-top: 10px;
+    width: 170px;
+    margin-left: 10px;
+    height: 210px;
+    background-color: antiquewhite;
+    border-radius: 4px;
+    overflow: hidden;
+}
+#bg2 img {
+    width: 175px;
+}
+
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    width: 940px;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 400%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    transition: none;
+}
+.wrapper li {
+    flex: 1px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+} 
+.wrapper li img {
+    width: 970px;
+    height: 370px;
+} 
+
+
+
+
+#main2 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 1150px;
+    margin-top: 8px;
+    display: flex;
+    background: #f1efe3;
+}
+
+
+#tupian {
+    display: block;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 20px;
+    margin-right: 15px;
+ 
+}
+#tupian img {
+    height: 120px;
+    width: 180px;
+    border-radius: 50%;    
+    overflow: hidden;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);  /*给图片添加阴影效果*/
+}
+
+
+#main2 p {
+   font-size: 15px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   font-style: italic;
+   font-weight: bold;
+}
+#main2 p2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 30px !important;
+    width: 28px;
+    font-weight: bold;
+    color: #3f6ea9;
+    line-height: 40px;
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-top: 65px;
+ }
+ 
+
+#main3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 450px;
+    float: left;
+    background-color: #f1f1f1;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div#main3 div.inner div#cont_3_1 {
+    height: 272px;
+    width: 344px;
+ 
+    background-color:#f1efe3;
+
+    margin-left: -20px;
+    margin-top: 20px;
+    border-top: 4px solid #b89a53;
+}
+div#main3 div.inner div#cont_3_2 {
+    height: 272px;
+    margin: 20px;
+    width: 344px;
+    background-color:#f1efe3;
+ 
+    margin-left: -65px;
+    margin-top: 25px;
+    border-top: 4px solid #b89a53;
+}
+
+#cont_3_1 img {
+    height: 200px;
+    border-radius: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 18px;
+    width: 250px;
+}
+#cont_3_1 audio {
+    height: 28px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 10px;
+    color: lightgreen;
+}
+#cont_3_2 img {
+    height: 200px;
+    border-radius: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 18px;
+    width: 250px;
+}
+#cont_3_2 audio {
+    height: 28px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 10px;
+}
+#main3 p1 {
+    display: inline-block;
+    font-size: 30px !important;
+    width: 28px;
+    margin-left: 23px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #3f6ea9;
+    line-height: 48px;
+    margin-right: 30px;
+}
+
+#main3 p2 {
+    display: inline-block;
+    font-size: 15px !important;
+    width: 60px;
+    margin-left: 23px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #3f6ea9;
+    line-height: 48px;
+    margin-right: 30px;
+}
+
+#main4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 690px;
+    float: right;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div#main4 div.inner div#cont_4_1 {
+    height: 272px;
+    width: 644px;
+    background-color:#f1efe3;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 25px;
+    
+
+}
+div#main4 div.inner div#cont_4_2 {
+    height: 260px;
+    width: 644px;
+    background-image: url(../images/message/m2.png);
+    background-color:#f1efe3;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+#cont_4_1 img {
+    height: 220px;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-left: 30px;
+    float: left;
+    margin-top: 10px;
+    box-shadow: 20px 20px 20px rgba(87, 85, 85, 0.5);  /*给图片添加阴影效果*/
+    width: 150px;
+}
+
+
+
+#main4 p1 {
+    font-size: 27px;
+    margin-left: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #3f6ea9;
+    margin-bottom: 20px;
+    letter-spacing: 15px;
+    margin-right: 30px;
+}
+#main4 p2 {
+    font-size:16px;
+    line-height: 30px;
+    padding: 20px;
+}
+#main4 p3 {
+    letter-spacing: 5px;  /*设置字符间距*/
+    font-weight: bold;  /*设置字体加粗*/
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#main4 span {
+    font-weight: bold;
+}
+#main4 span1 {
+    margin-top: 30px;
+    font-size:15px;
+    line-height: 35px;
+    padding: 20px;
+}
+footer {
+    width: 1150px;
+    margin-top: 670px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    background: #525252;
+    background: -moz-linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    background: linear-gradient(to right,rgb(82,82,82),rgb(61,114,180));
+    color: #fff;
+    font-size: 14px;
+}
+
