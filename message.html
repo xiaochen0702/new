@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到小橙子的留言板</title>
+    <link rel="stylesheet" href="../css/message.css">
+</head>
+
+<body>
+    <div id="bigbox">
+    <div id="title">
+        <img src="../images/index/bg.png" alt="">
+        <div>
+            <img src="../images/index/touxiang.png" alt="">
+        </div>
+        </div>
+        <div id="main">
+            <div id="main_left">
+                <a href="index.html">我的主页</a>
+                <a href="home.html">我的家乡</a>
+                <a href="daily.html">我的日常</a>
+                <a href="">给我留言</a>
+                <div id="bg2">
+                    <img src="../images/index/bg2.png" alt="">
+                </div>
+            </div>
+            <div id="main_right">
+                <div class="content">
+                    <ul class="wrapper">
+                        <li><img src="../images/message/m1.png"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="main2">
+            <div class="title">
+                留言板
+            </div>
+            <form action="" method="post" class="liuyan">
+                <!--单行文本框-->
+                <div class="item">
+                    <input type="text" class="wenben" name="username" placeholder="用户名">
+                </div>
+                <div class="item">
+                    <input type="text" class="wenben" name="phone" placeholder="联系方式">
+                </div>
+                 <!--密码框-->
+                <div class="item">
+                    <input type="password" class="wenben" name="password" placeholder="密码">
+                </div>
+                   <!--下拉框-->
+                <div class="item"> 
+                    <select name="city" class="xiala">
+                        <option value="">请选择城市</option>
+                        <option value="北京">北京</option>
+                        <option value="上海">上海</option>
+                        <option value="武汉">武汉</option>
+                        <option value="西安">西安</option>
+                        <option value="兰州">兰州</option>
+                        <option value="广州">广州</option>
+                        <option value="其他">其他</option>
+                    </select>
+                </div>
+                 <!--单选框-->
+                <div class="item">
+                    <div class="danxuan">
+                        <input type="radio" name="sex" id="male" value="male"> 男
+                    </div>
+                    <div class="danxuan">
+                        <input type="radio" name="sex" id="female" value="female" > 女
+                    </div>
+                </div>
+                <div class="clear"></div>
+                  <!--多（复）选框-->
+                <div class="item">
+                    <div class="duoxuan">
+                        <input type="checkbox"  name="hobby" value="打球"> 打球
+                    </div>
+                    <div class="duoxuan">
+                        <input type="checkbox"  name="hobby" value="爬山"> 爬山
+                    </div>
+                    <div class="duoxuan">
+                        <input type="checkbox" name="hobby" value="游泳"> 游泳
+                    </div>
+                    <div class="duoxuan">
+                       <input type="checkbox"  name="hobby" value="画画"> 画画
+                    </div>
+                </div>
+                <div class="clear"></div>
+                 <!--多行文本框-->
+                 <div class="item">
+                  <textarea name="message" class="neirong" placeholder="留言内容"></textarea>
+                </div>
+                 <!--按钮-->
+                 <div class="item">
+                    <button type="submit" class="anniu">提交</button>
+                 </div>
+            </form>
+        </div>
+
+        <footer>
+            <p>版权所有©：小橙子</p>
+        </footer>
+    </div>
+</body>
+</html>
